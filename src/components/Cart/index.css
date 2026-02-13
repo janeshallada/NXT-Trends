@@ -1,97 +1,50 @@
-.cart-bg-container {
-  min-height: 100vh;
-  background-color: #ffffff;
-  padding: 24px 16px;
-  font-family: 'Roboto';
-}
-
-.cart-content-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.cart-heading {
-  font-size: 24px;
-  color: #171f46;
-  margin-bottom: 16px;
-}
-
-.cart-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
-}
-
-.cart-header-item {
-  font-size: 14px;
-  color: #616e7c;
-}
-
-.remove-all-button {
-  background-color: transparent;
-  border: none;
-  color: #0b69ff;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.cart-items-list {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0 0 16px;
-}
-
-/* Empty cart view */
-
-.empty-cart-view {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 40px;
-  text-align: center;
-}
-
-.empty-cart-image {
-  width: 250px;
-  margin-bottom: 16px;
-}
-
-.empty-cart-heading {
-  font-size: 20px;
-  color: #171f46;
-}
-
-/* Responsive */
-
-@media screen and (min-width: 768px) {
-  .cart-heading {
-    font-size: 28px;
-  }
-
-  .cart-bg-container {
-    padding: 32px;
-  }
-}
-/* ...keep your existing styles... */
-
-.empty-cart-description {
-  font-size: 14px;
-  color: #616e7c;
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-
-.shop-now-link {
-  text-decoration: none;
-}
-
-.shop-now-button {
+.checkout-button {
   background-color: #0b69ff;
   color: #ffffff;
   border: none;
-  border-radius: 4px;
   padding: 10px 16px;
-  font-size: 14px;
+  border-radius: 6px;
   cursor: pointer;
+}
+
+.popup-container {
+  padding: 20px;
+  width: 300px;
+}
+
+.payment-options label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.summary {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.confirm-button {
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.confirm-button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.success-text {
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.close-button {
+  margin-top: 12px;
+  padding: 8px 12px;
 }

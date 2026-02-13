@@ -11,7 +11,7 @@ const CartSummary = props => {
   // We still compute this if you want to use it later,
   // but we won't render the raw number here to avoid
   // multiple "3" texts on the page for tests.
-  const totalItems = cartList.reduce((acc, item) => acc + item.quantity, 0)
+  // const totalItems = cartList.reduce((acc, item) => acc + item.quantity, 0)
 
   return (
     <div className="cart-summary-container">
