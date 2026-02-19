@@ -42,19 +42,6 @@ In the above command, replace this `{git repository URL}` with your actual Git U
 - Download dependencies by running `npm install`
 - Start up the app using `npm start`
 </details>
-
-<MultiLineNote>
-
-- Cloning the existing <a href="https://learning.ccbp.in/question/d595dd02-c5d0-4330-bd3d-ac0275b02d8a" target="_blank_">Nxt Trendz</a> repo is mandatory, as test cases are added for both the existing NxtTrendz App and the new functionality.
-- These projects are introduced to help you prepare well for similar questions asked during interviews. </MultiLineNote>
-
-### Submission Form:
-
-<center>Click the below button and submit your git URL and published URL of the current project</center>
-<br>
-<a href="https://forms.ccbp.in/nxt-tendz-enhancement-project-submission-form" target="_blank_">
-  <center><button style="color: #fff; border: none; cursor: pointer; width: 218px; height: 34px; background-color: rgb(22, 101, 216); border-radius: 5.4px; box-shadow: rgb(0 0 0 / 36%) 0px 2px 4px 0px;font-family: Inter;font-size: 14px;color: rgb(255, 255, 255);font-weight: 500;letter-spacing: 0.5px;text-transform: uppercase;">
-    SUBMIT
   </button>
   </center>
 </a>
